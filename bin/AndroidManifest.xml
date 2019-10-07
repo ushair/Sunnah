@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pro1.sunnah"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.pro1.sunnah.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Namazlist"
+            android:label="@string/title_activity_namazlist" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.rakat.Rakat"
+            android:label="@string/title_activity_rakat" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Sunnah"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Sunnat"
+            android:label="@string/title_activity_sunnat" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Dua"
+            android:label="@string/title_activity_dua" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Nearby"
+            android:label="@string/title_activity_nearby" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Compass"
+            android:label="@string/title_activity_compass" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Time_activity"
+            android:label="@string/title_activity_time_activity" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.rakat.Month"
+            android:label="@string/title_activity_month" >
+        </activity>
+        <activity
+            android:name="com.pro1.sunnah.Sunnah2"
+            android:label="@string/title_activity_sunnah2" >
+        </activity>
+    </application>
+
+</manifest>

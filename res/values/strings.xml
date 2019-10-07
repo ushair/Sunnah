@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="namaztt">Namaz-TimeTable</string>
+    <string name="app_name">Sunnah</string>
+    <string name="action_settings">Exit</string>
+    <string name="btn1">Namaz</string>
+    <string name="btn2">Dua</string>
+    <string name="btn3">Sunnat</string>
+    <string name="btn4">Near by Masjid </string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_namazlist">Namazlist</string>
+    <string name="btn5">Qibla</string>
+    <string name="title_activity_rakat">Rakat</string>
+    <string name="title_activity_dua">Dua</string>
+    <string name="title_activity_nearby">Nearby</string>
+    <string name="title_activity_compass">Compass</string>
+    <string name="title_activity_namaztime">Namaztime</string>
+
+    <string-array name="dua_list">
+        <item name="daily">Daily Duas</item>
+        <item name="fortress">Fortress Of The Muslim</item>
+    </string-array>
+
+    <string name="title_activity_time_activity">Time_activity</string>
+    <string name="title_activity_month">Month</string>
+    <string name="title_activity_sunnat">Sunnat</string>
+    <string name="title_activity_namazdata">Namazdata</string>
+    <string name="title_activity_sunnah2">Sunnah2</string>
+
+</resources>

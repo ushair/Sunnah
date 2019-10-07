@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore">
+        <ignore path="res/layout/activity_rakat.xml" />
+    </issue>
+    <issue id="ExtraText" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore">
+        <ignore path="res/layout/activity_compass.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam" severity="ignore" />
+    <issue id="OldTargetApi">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="PxUsage">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="SuspiciousImport" severity="ignore" />
+    <issue id="UnusedNamespace">
+        <ignore path="res/layout/activity_compass.xml" />
+    </issue>
+</lint>
